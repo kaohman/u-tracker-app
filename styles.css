@@ -1,0 +1,16 @@
+/*BROAD STYLES*/
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Font Awesome\ 5 Free', sans-serif;
+}
+
+.fa-dumbbell {
+  font-weight: 600;
+}
