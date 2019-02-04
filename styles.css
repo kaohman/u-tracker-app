@@ -9,8 +9,105 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', 'Font Awesome\ 5 Free', sans-serif;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+nav {
+  background-color: #F5F5F5;
+  grid-row: 1 / span 2;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+main {
+  background-color: #B8D8D8;
+}
+
+h1 {
+  font-size: 50px;
+  text-shadow: 2px 2px 8px black;
+  margin: 10px 0;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+h3 {
+  display: inline;
+  text-transform: uppercase;
+  margin: 0 auto 0 30px;
+}
+
+div {
+  padding: 20px;
+}
+
+#user-div {
+  text-align: center;
+  background-color: #FE5F55;
+  color: white;
+  padding: 10px;
+}
+
+#user-name {
+  font-weight: 400;
+}
+
+#overview-div {
+  height: 100px;
+  text-align: center;
+}
+
+#add-group {
+  border-top: 1px solid black;
+  height: 100px;
+}
+
+#overview-text {
+  display: block;
+  margin: 20px 0 0 0;
+}
+
+#hydration-text {
+  margin-left: 43px;
+}
+
+.activity-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.activities {
+  background-color: #C4C4C4;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  height: 100px;
+}
+
+.icons {
+  font-size: 24px;
 }
 
 .fa-dumbbell {
   font-weight: 600;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.fa-plus {
+  font-size: 35px;
 }

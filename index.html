@@ -10,6 +10,31 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
   </head>
   <body>
+    <nav>
+      <i class="fas fa-bars"></i>
+      <div id="user-div">
+        <h1>üTrack</h1>
+        <h2 id='user-name'>Sup, Megan?</h2>
+      </div>
+      <div id='overview-div'>
+        <h3 id='overview-text'>Overview</h3>
+      </div>
+      <div class='nav-items'>
+        <i class="far fa-dumbbell icons"></i>
+        <h3>Exercise</h3>
+      </div>
+      <div class='nav-items'>
+        <i class="fas fa-bed icons"></i>
+        <h3>Sleep</h3>
+      </div>
+      <div class='nav-items'>
+        <i class="fas fa-tint icons"></i>
+        <h3 id='hydration-text'>Hydration</h3>
+      </div>
+      <div id='add-group'>
+        <button><i class="fas fa-plus"></i></button>
+      </div>
+    </nav>
     <header>
       <div>
         <h2>Mon</h2>
@@ -36,61 +61,40 @@
         <h2>Sun</h2>
       </div>
     </header>
-    <nav>
-      <div>
-        <h1>üTrack</h1>
-        <h2>Sup, Megan?</h2>
-      </div>
-      <div>
-        <h3>Overview</h3>
-      </div>
-      <div>
-        <h3>Exercise<i class="far fa-dumbbell"></i></h3>
-      </div>
-      <div>
-        <h3>Sleep<i class="fas fa-bed"></i></h3>
-      </div>
-      <div>
-        <h3>Hydration<i class="fas fa-tint"></i></h3>
-      </div>
-      <div>
-        <button><i class="fas fa-plus"></i></button>
-      </div>
-    </nav>
     <main>
-      <div>
-        <p>Goals for Thursday...</p>
-        <div>
+      <p>Goals for Thursday...</p>
+      <div class='activity-container'>
+        <div class='activities'>
           <i class="fas fa-plus"></i>
         </div>
-        <div>
+        <div class='activities'>
           <p>Bike for 20 mins.</p>
-          <i class="far fa-dumbbell"></i>
+          <i class="far fa-dumbbell icons"></i>
         </div>
-        <div>
+        <div class='activities'>
           <p>Drink 3 cups of water</p>
-          <i class="fas fa-tint"></i>
+          <i class="fas fa-tint icons"></i>
         </div>
-        <div>
+        <div class='activities'>
           <p>Bench 200 lbs</p>
-          <i class="far fa-dumbbell"></i>
+          <i class="far fa-dumbbell icons"></i>
         </div>
       </div>
-      <div>
         <p>Completed!</p>
-        <div>
-          <p>Stretch</p>
-          <i class="far fa-dumbbell"></i>
+        <div class='activity-container'>
+          <div class='activities'>
+            <p>Stretch</p>
+            <i class="far fa-dumbbell icons"></i>
+          </div>
+          <div class='activities'>
+            <p>Power walk to work</p>
+            <i class="far fa-dumbbell icons"></i>
+          </div>
+          <div class='activities'>
+            <p>Walk to Grandma's</p>
+            <i class="far fa-dumbbell icons"></i>
+          </div>
         </div>
-        <div>
-          <p>Power walk to work</p>
-          <i class="far fa-dumbbell"></i>
-        </div>
-        <div>
-          <p>Walk to Grandma's</p>
-          <i class="far fa-dumbbell"></i>
-        </div>
-      </div>
     </main>
   </body>
 </html>
